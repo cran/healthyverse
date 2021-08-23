@@ -1,5 +1,7 @@
+# healthyverse 1.0.1
+
 # healthyverse 1.0.0
-* Submit to CRAN
+* On CRAN
 
 ## healthyverse 0.0.0.9000
 
