@@ -1,3 +1,7 @@
+# healthyverse 1.0.3
+
+* Added tidyAML to healthyverse
+
 # healthyverse 1.0.2
 
 * Added TidyDensity to healthyverse
