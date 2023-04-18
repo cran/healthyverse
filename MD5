@@ -1,7 +1,7 @@
-290e64ef4e049d9049fbd80d5b406901 *DESCRIPTION
+9a897f6591fd2ebbe661aa38ba863e88 *DESCRIPTION
 89d036375c154393776ada7a4a9f5c8c *LICENSE
 52c8df00ab15123383a36e9e27aa892a *NAMESPACE
-4a34265b87ee0545f52e18ba9f8fa916 *NEWS.md
+e4a346515c0b15d598a3f6485960751e *NEWS.md
 d2af365e174c1dfef07953147b52e3d6 *R/attach.R
 d03e895945e8804b9c09c5e0058253d9 *R/conflicts.R
 0587a1dae74837d29db761e15395cee2 *R/healthyverse.R
@@ -10,11 +10,11 @@ a5e0d8f93b0e268754b60ec60ab6303d *R/update.R
 62d15f931bb29c450c59a269b4ffacec *R/utils-tidy-eval.R
 4e6d4c17fcf9eda43c91caae0d4565c4 *R/utils.R
 ad4420fa9afb15008da392f68570863e *R/zzz.R
-148149fe95eacb1803a93b01e556a6d3 *README.md
+4023dac3c61e64f3a464b518c3c56da1 *README.md
 062b374697bfb23449da367c35f4350f *build/vignette.rds
 a5031906ac014b169c4c1dd0349e4a91 *inst/doc/getting-started.R
 7e2dce8c8a3b5533c88e82636bdbc1f4 *inst/doc/getting-started.Rmd
-8fe2768e3da2fffd6798ebf1108d73a7 *inst/doc/getting-started.html
+906dce07b1fe8611157a65c7a616bec4 *inst/doc/getting-started.html
 502a5f8dd6ba90060101596366cb7d58 *man/figures/README-pressure-1.png
 9f4b3100a0983b2314827778e78f876c *man/figures/test2.png
 8ef396239781b95d2f75db2d89b18cb1 *man/healthyverse-package.Rd
