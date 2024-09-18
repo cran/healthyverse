@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# healthyverse <img src="man/figures/test2.png" width="147" height="170" align="right" />
+# healthyverse <img src="man/figures/logo.png" width="147" height="170" align="right" />
 
 <!-- badges: start -->
 
@@ -47,20 +47,26 @@ devtools::install_github("spsanderson/healthyverse")
   style r\_ distribution data.
 - [tidyAML](https://www.spsanderson.com/tidyAML/), for tidymodels
   auto-ml.
+- [RandomWalker](https://www.spsanderson.com/RandomWalker/), for random
+  walk functions.
 
 You also get a condensed summary of conflicts with other packages you
 have loaded:
 
 ``` r
 library(healthyverse)
-#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.3.9000 ──
-#> ✔ healthyR      0.2.1          ✔ healthyR.ai   0.0.13    
-#> ✔ healthyR.data 1.0.2.9000     ✔ TidyDensity   1.2.4     
-#> ✔ healthyR.ts   0.2.8          ✔ tidyAML       0.0.1
-#> Warning: package 'TidyDensity' was built under R version 4.2.2
-#> Warning: package 'tidyAML' was built under R version 4.2.2
-#> Warning: package 'parsnip' was built under R version 4.2.3
-#> 
+#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.4.9000 ──
+#> ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.0     
+#> ✔ healthyR.data 1.1.1          ✔ tidyAML       0.0.5.9000
+#> ✔ healthyR.ts   0.3.0.9000     ✔ RandomWalker  0.1.0     
+#> ✔ healthyR.ai   0.1.0
+#> Warning: package 'healthyR.data' was built under R version 4.3.3
+#> Warning: package 'TidyDensity' was built under R version 4.3.3
+#> Warning: package 'parsnip' was built under R version 4.3.3
+#> Warning: package 'RandomWalker' was built under R version 4.3.3
+#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
+#> ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()
+#> ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()
 ```
 
 You can see conflicts created later with `healthyverse_conflicts()`:
@@ -68,6 +74,9 @@ You can see conflicts created later with `healthyverse_conflicts()`:
 ``` r
 library(MASS)
 healthyverse_conflicts()
+#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
+#> ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()
+#> ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()
 ```
 
 And you can check that all tidyverse packages are up-to-date with
